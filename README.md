@@ -10,7 +10,6 @@
 ## 1. What Is VPL?
 
 The **Virtual Phenotyping Lab (VPL)** is a non-profit scientific initiative—just getting under way—to develop and share simple, low-cost software tools, code snippets, and computational models for plant and crop phenotyping.  
-
 Originating from published high-throughput phenotyping (HTP) research by the founder, VPL is an open invitation: explore what’s available now, and join a community focused on accessible, reproducible workflows.
 
 ---
@@ -28,7 +27,7 @@ Originating from published high-throughput phenotyping (HTP) research by the fou
 1. **Reliability** – Rigorous, tested code and scientifically sound methods.  
 2. **Simplicity** – Clear examples, minimal dependencies, and step-by-step guides.  
 3. **Availability** – All code hosted openly on GitHub under permissive licenses.  
-4. **Affordability** – No proprietary software required—just open-source tools or nearly free options.  
+4. **Affordability** – VPL strives to keep solutions free or inexpensive.  
 5. **Reproducibility** – Sample data and parameter files included so outputs can be cross-checked.  
 6. **Community** – Any researcher, anywhere, is welcome to use, test, and improve these tools.
 
@@ -38,11 +37,11 @@ Originating from published high-throughput phenotyping (HTP) research by the fou
 
 Browse all current repositories and tools at [github.com/haqueshenas](https://github.com/haqueshenas).
 
-A few featured repositories:
-- [Canopy-GSM](https://github.com/haqueshenas/Canopy-GSM)
-- [Visual-Grain-Analyzer](https://github.com/haqueshenas/Visual-Grain-Analyzer)
-- [Optical-Leaf-Area](https://github.com/haqueshenas/Optical-Leaf-Area)
-- [Easy-Quadrat](https://github.com/haqueshenas/Easy-Quadrat)
+A few featured repositories:  
+- [Canopy-GSM](https://github.com/haqueshenas/Canopy-GSM)  
+- [Visual-Grain-Analyzer](https://github.com/haqueshenas/Visual-Grain-Analyzer)  
+- [Optical-Leaf-Area](https://github.com/haqueshenas/Optical-Leaf-Area)  
+- [Easy-Quadrat](https://github.com/haqueshenas/Easy-Quadrat)  
 - [Acoustic-Volumeter](https://github.com/haqueshenas/Acoustic-Volumeter)
 
 ---
