@@ -1,4 +1,4 @@
-# 🌿 Virtual Phenotyping Lab (VPL)
+# 🌿 Easy Phenotyping Lab (EPL)
 
 **Initiating an Open-Source Plant Phenotyping Initiative**
 
@@ -7,10 +7,10 @@
 
 ---
 
-## 1. What Is VPL?
+## 1. What Is EPL?
 
-The **Virtual Phenotyping Lab (VPL)** is a non-profit scientific initiative—just getting under way—to develop and share simple, low-cost software tools, code snippets, and computational models for plant and crop phenotyping.  
-Originating from published high-throughput phenotyping (HTP) research by the founder, VPL is an open invitation: explore what’s available now, and join a community focused on accessible, reproducible workflows.
+The **Easy Phenotyping Lab (EPL)** is a non-profit scientific initiative—just getting under way—to develop and share simple, low-cost software tools, code snippets, and computational models for plant and crop phenotyping.  
+Originating from published high-throughput phenotyping (HTP) research by the founder, EPL is an open invitation: explore what’s available now, and join a community focused on accessible, reproducible workflows.
 
 ---
 
@@ -27,7 +27,7 @@ Originating from published high-throughput phenotyping (HTP) research by the fou
 1. **Reliability** – Rigorous, tested code and scientifically sound methods.  
 2. **Simplicity** – Clear examples, minimal dependencies, and step-by-step guides.  
 3. **Availability** – All code hosted openly on GitHub under permissive licenses.  
-4. **Affordability** – VPL strives to keep solutions free or inexpensive.  
+4. **Affordability** – EPL strives to keep solutions free or inexpensive.  
 5. **Reproducibility** – Sample data and parameter files included so outputs can be cross-checked.  
 6. **Community** – Any researcher, anywhere, is welcome to use, test, and improve these tools.
 
@@ -50,7 +50,7 @@ A few featured repositories:
 
 - **GitHub:** [github.com/haqueshenas](https://github.com/haqueshenas)  
 - **Email:** [haqueshenas@gmail.com](mailto:haqueshenas@gmail.com)  
-- **Website:** [https://haqueshenas.github.io/VPL](https://haqueshenas.github.io/VPL)
+- **Website:** [https://haqueshenas.github.io/EPL](https://haqueshenas.github.io/EPL)
 
 ---
 
