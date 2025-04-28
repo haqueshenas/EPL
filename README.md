@@ -28,7 +28,7 @@ The **Easy-Phenotyping Lab (EPL)** is a non-profit scientific initiative—just 
 3. **Availability** – All code hosted openly on GitHub under permissive licenses.  
 4. **Affordability** – No proprietary software required—just open-source tools or nearly free options.  
 5. **Reproducibility** – Sample data and parameter files included so outputs can be cross-checked.  
-6. **Community** – Any researcher, anywhere, is welcome to use, test, and improve these tools.
+6. **Community** – Any researcher, anywhere, is welcome to use, test, and improve these tools.  
 
 ---
 
@@ -42,6 +42,14 @@ A few featured repositories:
 - [Optical-Leaf-Area](https://github.com/haqueshenas/Optical-Leaf-Area)  
 - [Easy-Quadrat](https://github.com/haqueshenas/Easy-Quadrat)  
 - [Acoustic-Volumeter](https://github.com/haqueshenas/Acoustic-Volumeter)
+
+---
+
+## Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15296178.svg)](https://doi.org/10.5281/zenodo.15296178)
+
+Haghshenas, A. (2025). *Easy-Phenotyping Lab (EPL) v1.0.0* [Software]. Zenodo. https://doi.org/10.5281/zenodo.15296178
 
 ---
 
