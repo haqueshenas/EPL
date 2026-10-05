@@ -85,142 +85,362 @@
     </section>
 
 
-    <!-- Open Crop Phenotyping Section -->
-    <section id="ocp" class="mb-12">
+<!-- Open Crop Phenotyping Section -->
+<section id="ocp" class="mb-12">
 
-      <h2 class="text-2xl font-semibold mb-4">
-        Open Crop Phenotyping (OCP)
-      </h2>
+  <h2 class="text-2xl font-semibold mb-4">
+    Open Crop Phenotyping (OCP)
+  </h2>
 
-      <div class="bg-white p-6 rounded-2xl shadow">
+  <div class="bg-white p-6 rounded-2xl shadow">
 
-        <p class="leading-relaxed">
-          We believe that the tools needed to understand and improve crops
-          should be accessible to as many researchers as possible, wherever
-          they work and whatever resources they have. We therefore invite
-          researchers and developers of crop and plant phenotyping tools to
-          share their software, methods, and practical innovations openly,
-          freely, and in forms that others can readily access, use, learn
-          from, reproduce, and build upon—preferably under permissive licenses
-          such as MIT, BSD, or similar licenses. This effort is guided by six
-          principles: <strong>Reliability, Simplicity, Availability,
-          Affordability, Reproducibility, and Community</strong>. No single
-          laboratory owns this effort, and no single developer speaks for it:
-          we are connected by a shared commitment to lowering the barriers to
-          phenotyping and helping one another advance science. Alongside
-          <strong>High-Throughput Phenotyping (HTP)</strong>, this is also a
-          step toward what may be called
-          <strong>High-Accessibility Crop Phenotyping</strong>—making capable
-          and trustworthy phenotyping tools available to more researchers,
-          in more places, and with fewer barriers.
+    <p class="leading-relaxed">
+      We believe that the tools needed to understand and improve crops
+      should be accessible to as many researchers as possible, wherever
+      they work and whatever resources they have. We therefore invite
+      researchers and developers of crop and plant phenotyping tools to
+      share their software, methods, and practical innovations openly,
+      freely, and in forms that others can readily access, use, learn
+      from, reproduce, and build upon—preferably under permissive licenses
+      such as MIT, BSD, or similar licenses. This effort is guided by six
+      principles: <strong>Reliability, Simplicity, Availability,
+      Affordability, Reproducibility, and Community</strong>. No single
+      laboratory owns this effort, and no single developer speaks for it:
+      we are connected by a shared commitment to lowering the barriers to
+      phenotyping and helping one another advance science. Alongside
+      <strong>High-Throughput Phenotyping (HTP)</strong>, this is also a
+      step toward what may be called
+      <strong>High-Accessibility Crop Phenotyping</strong>—making capable
+      and trustworthy phenotyping tools available to more researchers,
+      in more places, and with fewer barriers.
+    </p>
+
+    <p class="mt-4 text-sm text-gray-600">
+      <strong>
+        Open Crop Phenotyping (OCP) was initiated by the
+        <a
+          href="https://haqueshenas.github.io/EPL/"
+          class="text-[#57863c] hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Easy-Phenotyping Lab (EPL)
+        </a>
+      </strong>
+      and is offered as an open, shared commitment that no single
+      laboratory owns. The idea is intended to be adopted, developed,
+      and carried forward by the wider crop and plant phenotyping
+      community.
+    </p>
+
+
+    <!-- Shared Principles -->
+    <div class="mt-8">
+
+      <h3 class="text-xl font-semibold mb-4">
+        The Principles We Share
+      </h3>
+
+      <ul class="list-decimal list-inside space-y-2">
+
+        <li>
+          <strong>Reliability:</strong>
+          Scientifically sound methods, with code and procedures tested
+          as carefully as reasonably possible.
+        </li>
+
+        <li>
+          <strong>Simplicity:</strong>
+          Clear documentation, practical examples, and no unnecessary
+          technical complexity.
+        </li>
+
+        <li>
+          <strong>Availability:</strong>
+          Tools should be openly accessible and usable by researchers
+          without unnecessary institutional or geographic barriers.
+        </li>
+
+        <li>
+          <strong>Affordability:</strong>
+          The approach should avoid unnecessary dependence on expensive
+          proprietary hardware or software.
+        </li>
+
+        <li>
+          <strong>Reproducibility:</strong>
+          Documentation, sample data, parameters, or other information
+          should be provided whenever practical so that results can be
+          examined and reproduced.
+        </li>
+
+        <li>
+          <strong>Community:</strong>
+          Researchers everywhere are welcome to use, test, discuss,
+          improve, adapt, and share phenotyping tools.
+        </li>
+
+      </ul>
+    </div>
+
+
+    <!-- Why OCP -->
+    <div class="mt-8">
+
+      <h3 class="text-xl font-semibold mb-4">
+        Why OCP?
+      </h3>
+
+      <p class="leading-relaxed">
+        Scientific progress does not depend only on developing new
+        phenotyping technologies. It also depends on whether useful
+        technologies can reach the researchers who need them. Across
+        crop and plant sciences, valuable tools are often limited by
+        technical complexity, cost, proprietary software, lack of
+        documentation, or restricted access. OCP seeks to reduce these
+        barriers by encouraging a culture in which useful phenotyping
+        tools are shared rather than isolated—so that researchers can
+        access existing solutions, learn from them, reproduce them,
+        improve them, and build new work upon them.
+      </p>
+
+    </div>
+
+
+    <!-- Responsibility -->
+    <div class="mt-8 border-l-4 border-[#57863c] pl-4">
+
+      <p class="text-sm text-gray-600 leading-relaxed">
+        <strong>Important:</strong>
+        OCP is a voluntary scientific commitment, not a software license,
+        certification, or endorsement. Each developer or research group
+        remains fully responsible for the scientific validity, technical
+        performance, maintenance, documentation, and licensing of its own
+        work. Sharing a tool in the spirit of OCP does not imply that EPL
+        has certified or guaranteed that tool.
+      </p>
+
+    </div>
+
+
+    <!-- Copy / Share OCP -->
+    <div class="mt-8 text-center">
+
+      <button
+        type="button"
+        onclick="openOcpModal()"
+        class="bg-[#57863c] text-white px-5 py-3 rounded-xl font-semibold hover:opacity-90 transition"
+      >
+        Share the OCP Commitment
+      </button>
+
+      <p class="mt-2 text-sm text-gray-500">
+        Copy a standard OCP statement for your README, website, paper,
+        or tool page.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- OCP Share Modal -->
+<div
+  id="ocpModal"
+  class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 px-4"
+  onclick="closeOcpModal(event)"
+>
+
+  <div
+    class="bg-white rounded-2xl shadow-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto"
+    onclick="event.stopPropagation()"
+  >
+
+    <div class="p-6 border-b flex justify-between items-center">
+
+      <div>
+        <h2 class="text-2xl font-semibold">
+          Share the OCP Commitment
+        </h2>
+
+        <p class="mt-1 text-sm text-gray-500">
+          Copy a standard OCP statement for use with your own phenotyping tool.
         </p>
+      </div>
 
-        <p class="mt-4 text-sm text-gray-600">
-          EPL uses the term <strong>Open Crop Phenotyping (OCP)</strong> for
-          this shared goal and invites others to adopt, develop, and carry
-          the idea forward in their own work.
-        </p>
+      <button
+        type="button"
+        onclick="closeOcpModal()"
+        class="text-gray-500 hover:text-gray-800 text-2xl leading-none"
+        aria-label="Close"
+      >
+        &times;
+      </button>
 
-        <!-- Shared Principles -->
-        <div class="mt-8">
-          <h3 class="text-xl font-semibold mb-4">
-            The Principles We Share
+    </div>
+
+
+    <div class="p-6 space-y-8">
+
+      <!-- Full OCP Commitment -->
+      <div>
+
+        <div class="flex justify-between items-center mb-2">
+
+          <h3 class="text-lg font-semibold">
+            Full OCP Commitment
           </h3>
 
-          <ul class="list-decimal list-inside space-y-2">
-            <li>
-              <strong>Reliability:</strong>
-              Scientifically sound methods, with code and procedures tested
-              as carefully as reasonably possible.
-            </li>
-
-            <li>
-              <strong>Simplicity:</strong>
-              Clear documentation, practical examples, and no unnecessary
-              technical complexity.
-            </li>
-
-            <li>
-              <strong>Availability:</strong>
-              Tools should be openly accessible and usable by researchers
-              without unnecessary institutional or geographic barriers.
-            </li>
-
-            <li>
-              <strong>Affordability:</strong>
-              The approach should avoid unnecessary dependence on expensive
-              proprietary hardware or software.
-            </li>
-
-            <li>
-              <strong>Reproducibility:</strong>
-              Documentation, sample data, parameters, or other information
-              should be provided whenever practical so that results can be
-              examined and reproduced.
-            </li>
-
-            <li>
-              <strong>Community:</strong>
-              Researchers everywhere are welcome to use, test, discuss,
-              improve, adapt, and share phenotyping tools.
-            </li>
-          </ul>
-        </div>
-
-
-        <!-- Why OCP -->
-        <div class="mt-8">
-          <h3 class="text-xl font-semibold mb-4">
-            Why OCP?
-          </h3>
-
-          <p class="leading-relaxed">
-            Scientific progress does not depend only on developing new
-            phenotyping technologies. It also depends on whether useful
-            technologies can reach the researchers who need them. Across
-            crop and plant sciences, valuable tools are often limited by
-            technical complexity, cost, proprietary software, lack of
-            documentation, or restricted access. OCP seeks to reduce these
-            barriers by encouraging a culture in which useful phenotyping
-            tools are shared rather than isolated—so that researchers can
-            access existing solutions, learn from them, reproduce them,
-            improve them, and build new work upon them.
-          </p>
-        </div>
-
-
-        <!-- Responsibility -->
-        <div class="mt-8 border-l-4 border-[#57863c] pl-4">
-          <p class="text-sm text-gray-600 leading-relaxed">
-            <strong>Important:</strong>
-            OCP is a voluntary scientific commitment, not a software license,
-            certification, or endorsement. Each developer or research group
-            remains fully responsible for the scientific validity, technical
-            performance, maintenance, documentation, and licensing of its own
-            work. Sharing a tool in the spirit of OCP does not imply that EPL
-            has certified or guaranteed that tool.
-          </p>
-        </div>
-
-
-        <!-- Copy / Share OCP -->
-        <div class="mt-8 text-center">
           <button
             type="button"
-            onclick="openOcpModal()"
-            class="bg-[#57863c] text-white px-5 py-3 rounded-xl font-semibold hover:opacity-90 transition"
+            onclick="copyOcpText('ocpFullText', 'copyFullButton')"
+            id="copyFullButton"
+            class="bg-[#57863c] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-90"
           >
-            Share the OCP Commitment
+            Copy
           </button>
 
-          <p class="mt-2 text-sm text-gray-500">
-            Copy a standard OCP statement for your README, website, paper,
-            or tool page.
-          </p>
         </div>
 
+        <textarea
+          id="ocpFullText"
+          readonly
+          class="w-full h-72 border border-gray-300 rounded-xl p-4 text-sm leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-[#57863c]"
+        >Open Crop Phenotyping (OCP) was initiated by the Easy-Phenotyping Lab (EPL) and is offered as an open, shared commitment that no single laboratory owns. We believe that the tools needed to understand and improve crops should be accessible to as many researchers as possible, wherever they work and whatever resources they have. We therefore invite researchers and developers of crop and plant phenotyping tools to share their software, methods, and practical innovations openly, freely, and in forms that others can readily access, use, learn from, reproduce, and build upon—preferably under permissive licenses such as MIT, BSD, or similar licenses. This effort is guided by six principles: Reliability, Simplicity, Availability, Affordability, Reproducibility, and Community. Alongside High-Throughput Phenotyping (HTP), this is also a step toward what may be called High-Accessibility Crop Phenotyping—making capable and trustworthy phenotyping tools available to more researchers, in more places, and with fewer barriers.</textarea>
+
+        <p class="mt-2 text-xs text-gray-500">
+          Source:
+          <a
+            href="https://haqueshenas.github.io/EPL/"
+            class="text-[#57863c] hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Easy-Phenotyping Lab (EPL) — Open Crop Phenotyping
+          </a>
+        </p>
+
       </div>
-    </section>
+
+
+      <!-- One-Line Declaration -->
+      <div>
+
+        <div class="flex justify-between items-center mb-2">
+
+          <h3 class="text-lg font-semibold">
+            One-Line Declaration
+          </h3>
+
+          <button
+            type="button"
+            onclick="copyOcpText('ocpOneLineText', 'copyOneLineButton')"
+            id="copyOneLineButton"
+            class="bg-[#57863c] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:opacity-90"
+          >
+            Copy
+          </button>
+
+        </div>
+
+        <textarea
+          id="ocpOneLineText"
+          readonly
+          class="w-full h-32 border border-gray-300 rounded-xl p-4 text-sm leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-[#57863c]"
+        >We share this tool in support of Open Crop Phenotyping (OCP), initiated by the Easy-Phenotyping Lab (EPL) as an open, shared commitment to making reliable, accessible, reproducible, and collaborative crop phenotyping tools available to researchers everywhere. https://haqueshenas.github.io/EPL/</textarea>
+
+        <p class="mt-2 text-xs text-gray-500">
+          A compact attribution suitable for README files, tool pages,
+          documentation, or publications.
+        </p>
+
+      </div>
+
+
+      <!-- Responsibility Note -->
+      <div class="text-sm text-gray-600 bg-gray-50 rounded-xl p-4">
+
+        OCP is a voluntary commitment, not a software license,
+        certification, or endorsement. Responsibility for each tool remains
+        with its developer or research group.
+
+      </div>
+
+    </div>
+
+
+    <div class="p-6 border-t text-right">
+
+      <button
+        type="button"
+        onclick="closeOcpModal()"
+        class="bg-gray-200 text-gray-700 px-5 py-2 rounded-lg font-semibold hover:bg-gray-300"
+      >
+        Close
+      </button>
+
+    </div>
+
+  </div>
+</div>
+
+
+<!-- OCP Modal / Copy JavaScript -->
+<script>
+  function openOcpModal() {
+    const modal = document.getElementById("ocpModal");
+
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+
+    document.body.style.overflow = "hidden";
+  }
+
+
+  function closeOcpModal(event) {
+    if (event && event.target !== document.getElementById("ocpModal")) {
+      return;
+    }
+
+    const modal = document.getElementById("ocpModal");
+
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+
+    document.body.style.overflow = "";
+  }
+
+
+  async function copyOcpText(textareaId, buttonId) {
+    const textarea = document.getElementById(textareaId);
+    const button = document.getElementById(buttonId);
+    const text = textarea.value;
+
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch (error) {
+      textarea.focus();
+      textarea.select();
+      document.execCommand("copy");
+    }
+
+    const originalText = button.textContent;
+
+    button.textContent = "Copied!";
+
+    setTimeout(() => {
+      button.textContent = originalText;
+    }, 1500);
+  }
+
+
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      closeOcpModal();
+    }
+  });
+</script>
 
 
     <!-- EPL Tools Section -->
