@@ -43,3 +43,21 @@ Researchers and developers are welcome to reproduce and share the OCP Commitment
 
 > We share this tool in support of Open Crop Phenotyping (OCP), initiated by the Easy-Phenotyping Lab (EPL) as an open, shared commitment to making reliable, accessible, reproducible, and collaborative crop phenotyping tools available to researchers everywhere.  
 > https://haqueshenas.github.io/EPL/
+>
+> ## License and Attribution
+
+The text of the OCP Commitment in this document is licensed under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to copy, share, translate, adapt, and reuse the OCP Commitment,
+provided that appropriate attribution is given and such use does not imply
+certification, endorsement, or validation by EPL.
+
+Suggested attribution:
+
+> Open Crop Phenotyping (OCP), initiated by the Easy-Phenotyping Lab (EPL).
+> Source: https://haqueshenas.github.io/EPL/
+
+The OCP Commitment is an open shared framework; this license applies to
+the text of the Commitment and does not imply exclusive ownership of the
+OCP idea or of implementations that adopt it.
